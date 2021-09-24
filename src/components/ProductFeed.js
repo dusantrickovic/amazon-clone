@@ -8,6 +8,7 @@ function ProductFeed({ products }) {
                     key={id} 
                     id={id}
                     price={price}
+                    title={title}
                     description={description}
                     category={category}
                     image={image}
@@ -22,6 +23,7 @@ function ProductFeed({ products }) {
                         key={id} 
                         id={id}
                         price={price}
+                        title={title}
                         description={description}
                         category={category}
                         image={image}
@@ -34,6 +36,7 @@ function ProductFeed({ products }) {
                     key={id} 
                     id={id}
                     price={price}
+                    title={title}
                     description={description}
                     category={category}
                     image={image}
